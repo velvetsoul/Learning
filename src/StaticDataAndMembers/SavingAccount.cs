@@ -14,6 +14,11 @@ namespace StaticDataAndMembers
         {
             currBalance = balance;
         }
+        static SavingAccount()
+        {
+            Console.WriteLine("in static ctor");
+            currInterestRate = 0.04;
+        }
         public static void SetInterstRate(double newRate)
         {
             currInterestRate = newRate;
