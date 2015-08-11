@@ -6,27 +6,37 @@ using System.Threading.Tasks;
 
 namespace StaticDataAndMembers
 {
-    class SavingAccount
+    class SavingsAccount
     {
+        
         public double currBalance;
+
+        
         public static double currInterestRate;
-        public SavingAccount(double balance)
+
+        public static double InterestRate
+        {
+            get { return currInterestRate; }
+            set { currInterestRate = value; }
+        }
+
+        public SavingsAccount(double balance)
         {
             currBalance = balance;
         }
-        static SavingAccount()
+
+       
+        static SavingsAccount()
         {
-            Console.WriteLine("in static ctor");
+            Console.WriteLine("In static ctor!");
             currInterestRate = 0.04;
         }
-        public static void SetInterstRate(double newRate)
-        {
-            currInterestRate = newRate;
-        }
-        public static double GetInterestRate()
-        {
-            return currInterestRate;
-        }
+
         
+        public static void SetInterestRate(double newRate)
+        { currInterestRate = newRate; }
+
+        public static double GetInterestRate()
+        { return currInterestRate; }
     }
 }
