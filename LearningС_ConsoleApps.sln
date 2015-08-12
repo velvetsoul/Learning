@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "src\Employee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "src\AutoProps\AutoProps.csproj", "{65290BC8-7F45-4157-AE2D-FAAFE870DA8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "src\ObjectInitializers\ObjectInitializers.csproj", "{80F03EA8-BD07-4D48-B315-782FF1D32FF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{65290BC8-7F45-4157-AE2D-FAAFE870DA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65290BC8-7F45-4157-AE2D-FAAFE870DA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65290BC8-7F45-4157-AE2D-FAAFE870DA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F03EA8-BD07-4D48-B315-782FF1D32FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F03EA8-BD07-4D48-B315-782FF1D32FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F03EA8-BD07-4D48-B315-782FF1D32FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F03EA8-BD07-4D48-B315-782FF1D32FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,5 +162,6 @@ Global
 		{DBB48550-5169-4CF1-A54D-60DECF18B63D} = {84B45F9A-A1AC-4769-9714-B8CCD566669A}
 		{E5FACAF5-6F69-49F3-8ACB-169FE402A24E} = {84B45F9A-A1AC-4769-9714-B8CCD566669A}
 		{65290BC8-7F45-4157-AE2D-FAAFE870DA8E} = {84B45F9A-A1AC-4769-9714-B8CCD566669A}
+		{80F03EA8-BD07-4D48-B315-782FF1D32FF6} = {84B45F9A-A1AC-4769-9714-B8CCD566669A}
 	EndGlobalSection
 EndGlobal
